@@ -9,7 +9,7 @@ export const SITE: Site = {
 };
 
 export const HOME: Metadata = {
-    TITLE: "tape4",
+    TITLE: "Home",
     DESCRIPTION: "Blog and portfolio for tape4",
 };
 
