@@ -66,11 +66,9 @@ chmod +x rolling_update/*.sh
 
 ## 느낀 점
 
-이 템플릿을 만들면서, 단순히 코드를 작성하는 것뿐만 아니라 서비스가 **운영되는 환경까지 고려하는 것**의 중요함을 크게 느꼈다.  
-CI/CD, 모니터링, 무중단 배포 등은 개발자에게 더 이상 선택이 아닌 필수적인 역량이 되었고, 제한된 리소스 안에서도 충분히 실용적인 인프라를 구축할 수 있다는 것을 직접 경험할 수 있었다.
+이 템플릿을 만들면서, 단순히 코드를 작성하는 것뿐만 아니라 서비스가 **운영되는 환경까지 고려하는 것**의 중요함을 크게 느꼈다. CI/CD, 모니터링, 무중단 배포 등은 개발자에게 더 이상 선택이 아닌 필수적인 역량이 되었고, 제한된 리소스 안에서도 충분히 실용적인 인프라를 구축할 수 있다는 것을 직접 경험할 수 있었다.
 
 반복 가능한 작업을 자동화하는건 항상 즐겁다.
 
-특히 프로젝트와 별개로, HTTPS 환경을 구성하면서 [**AWS의 Public IPv4 정책 변경**](https://aws.amazon.com/ko/blogs/korea/new-aws-public-ipv4-address-charge-public-ip-insights/)으로 인해  
-기존에 사용하던 AWS Certificate Manager와 Load Balancer를 통한 무료 인증서 방식이 유료화되었다.  
+특히 프로젝트와 별개로, HTTPS 환경을 구성하면서 [**AWS의 Public IPv4 정책 변경**](https://aws.amazon.com/ko/blogs/korea/new-aws-public-ipv4-address-charge-public-ip-insights/)으로 인해 기존에 사용하던 AWS Certificate Manager와 Load Balancer를 통한 무료 인증서 방식이 유료화되었다.  
 이에 따라 **Nginx와 Certbot을 이용한 무료 인증서 발급 및 갱신 방식으로 구조를 변경**하였으며, 이 부분에 대해서도 템플릿에 추후 반영할 예정이다.
