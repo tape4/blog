@@ -1,6 +1,6 @@
 ---
 title: "2025 팀네이버 신입 공채 지원 후기"
-description: "Hit the ground running."
+description: "2025 Team NAVER Recruit"
 date: "Apr 15 2025"
 ---
 
