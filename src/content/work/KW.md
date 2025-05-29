@@ -1,7 +1,7 @@
 ---
 company: "Kwangwoon University"
 role: "School of Software, Software Major"
-dateStart: "01/03/2019"
+dateStart: "03/01/2019"
 dateEnd: "current"
 ---
 

@@ -1,7 +1,7 @@
 ---
 company: "AWS Cloud Club"
 role: "1st member"
-dateStart: "01/03/2024"
+dateStart: "03/01/2024"
 dateEnd: "Current"
 ---
 
